@@ -28,6 +28,158 @@
         <button type="submit">Kirim</button> 
     </form>
 
+<h2>Form Pendaftaran Mahasiswa</h2>
+<form>
+    <label for="nama">Nama Lengkap:</label><br>
+    <input 
+        type="text" 
+        id="nama" 
+        name="nama"
+        placeholder="Masukkan nama lengkap"
+        required>
+    <br><br>
+
+    <label for="nim">NIM:</label><br>
+    <input 
+        type="text" 
+        id="nim" 
+        name="nim"
+        placeholder="Masukkan NIM"
+        required>
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input 
+        type="email" 
+        id="email" 
+        name="email"
+        placeholder="@email.com"
+        required>
+    <br><br>
+
+    <label for="password">Password:</label><br>
+    <input 
+        type="password" 
+        id="password" 
+        name="password"
+        required>
+    <br><br>
+
+    <label for="tanggal">Tanggal Lahir:</label><br>
+    <input 
+        type="date" 
+        id="tanggal" 
+        name="tanggal"
+        required>
+    <br><br>
+
+    <label for="telepon">Nomor Telepon:</label><br>
+    <input 
+        type="tel" 
+        id="telepon" 
+        name="telepon"
+        placeholder="08xxxxxxxxxx"
+        required>
+    <br><br>
+
+    <label for="jumlah">Jumlah Kegiatan:</label><br>
+    <input 
+        type="number" 
+        id="jumlah" 
+        name="jumlah"
+        min="1"
+        max="10"
+        value="1">
+    <br><br>
+
+    <p>Jenis Kelamin:</p>
+    <input 
+        type="radio" 
+        id="laki" 
+        name="jenis_kelamin" 
+        value="Laki-laki"
+        required>
+    <label for="laki">Laki-laki</label>
+
+    <input 
+        type="radio" 
+        id="perempuan" 
+        name="jenis_kelamin" 
+        value="Perempuan">
+    <label for="perempuan">Perempuan</label>
+    <br><br>
+
+    <p>Minat Mahasiswa:</p>
+    <input 
+        type="checkbox" 
+        id="web" 
+        name="minat" 
+        value="Pemrograman Web">
+    <label for="web">Pemrograman Web</label><br>
+
+    <input 
+        type="checkbox" 
+        id="database" 
+        name="minat" 
+        value="Basis Data">
+    <label for="database">Basis Data</label><br>
+
+    <input 
+        type="checkbox" 
+        id="design" 
+        name="minat" 
+        value="Desain">
+    <label for="design">Desain</label><br>
+
+    <input 
+        type="checkbox" 
+        id="organisasi" 
+        name="minat" 
+        value="Organisasi">
+    <label for="organisasi">Organisasi</label><br>
+
+    <input 
+        type="checkbox" 
+        id="olahraga" 
+        name="minat" 
+        value="Olahraga">
+    <label for="olahraga">Olahraga</label>
+    <br><br>
+
+    <label for="prodi">Program Studi:</label><br>
+    <select id="prodi" name="prodi" required>
+        <option value="">-- Pilih Program Studi --</option>
+        <option value="informatika">Informatika</option>
+        <option value="sistem_informasi">Sistem Informasi</option>
+        <option value="teknik_komputer">Teknik Komputer</option>
+        <option value="manajemen">Manajemen</option>
+        <option value="akuntansi">Akuntansi</option>
+    </select>
+    <br><br>
+
+    <label for="alamat">Alamat:</label><br>
+    <textarea 
+        id="alamat" 
+        name="alamat" 
+        rows="4" 
+        cols="40"
+        placeholder="Masukkan alamat lengkap"
+        required></textarea>
+    <br><br>
+
+    <label for="pesan">Pesan:</label><br>
+    <textarea 
+        id="pesan" 
+        name="pesan" 
+        rows="4" 
+        cols="40"
+        placeholder="Masukkan pesan"></textarea>
+    <br><br>
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Reset">
+    <button type="button">Tombol Biasa</button>
+</form>    
+
 <h2>Form Pemesanan</h2>
 
     <form>
